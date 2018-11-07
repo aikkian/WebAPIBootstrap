@@ -10,5 +10,11 @@ namespace WebApiSample.Controllers
         {
             return Ok("Wow!");
         }
+
+        [HttpPost]
+        public IHttpActionResult PostValue()
+        {
+            return Ok("Posted.");
+        }
     }
 }
