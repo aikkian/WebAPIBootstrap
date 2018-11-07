@@ -22,5 +22,11 @@ namespace WebApiSample.Controllers
         {
             return Ok("Updated.");
         }
+
+        [HttpDelete]
+        public IHttpActionResult DeleteValue()
+        {
+            return Ok("Deleted.");
+        }
     }
 }
