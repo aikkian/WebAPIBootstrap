@@ -8,7 +8,7 @@ namespace WebApiSample.Controllers
         [HttpGet]
         public IHttpActionResult GetValue()
         {
-            return Ok("Wow!");
+            return Ok("Get Successfully.");
         }
 
         [HttpPost]
