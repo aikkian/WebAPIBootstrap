@@ -16,5 +16,11 @@ namespace WebApiSample.Controllers
         {
             return Ok("Posted.");
         }
+
+        [HttpPut]
+        public IHttpActionResult PutValue()
+        {
+            return Ok("Updated.");
+        }
     }
 }
