@@ -26,6 +26,9 @@ namespace WebApiSample.Controllers
         [HttpDelete]
         public IHttpActionResult DeletePayment()
         {
+            int i = 0;
+            int j = 5;
+            int k = j / i;
             return Ok("Payment Deleted.");
         }
     }
