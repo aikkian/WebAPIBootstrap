@@ -64,6 +64,8 @@
     </Compile>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\IndexController.cs" />
+    <Compile Include="Controllers\OrderController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
