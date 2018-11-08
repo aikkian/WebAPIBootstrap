@@ -66,6 +66,7 @@
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Controllers\IndexController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
+    <Compile Include="Controllers\PaymentController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
