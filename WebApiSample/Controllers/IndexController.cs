@@ -3,28 +3,28 @@ using System.Web.Http;
 
 namespace WebApiSample.Controllers
 {
-    public class ValuesController : ApiController 
+    public class IndexController : ApiController 
     {
         [HttpGet]
-        public IHttpActionResult GetValue()
+        public IHttpActionResult GetIndex()
         {
             return Ok("Get Successfully.");
         }
 
         [HttpPost]
-        public IHttpActionResult PostValue()
+        public IHttpActionResult PostIndex()
         {
             return Ok("Posted.");
         }
 
         [HttpPut]
-        public IHttpActionResult PutValue()
+        public IHttpActionResult PutIndex()
         {
             return Ok("Updated.");
         }
 
         [HttpDelete]
-        public IHttpActionResult DeleteValue()
+        public IHttpActionResult DeleteIndex()
         {
             return Ok("Deleted.");
         }
