@@ -8,6 +8,7 @@ namespace WebApiSampleTest
         [Test()]
         public void TestCase()
         {
+            Assert.AreEqual(true, false, "Test Failed", null);
         }
     }
 }
