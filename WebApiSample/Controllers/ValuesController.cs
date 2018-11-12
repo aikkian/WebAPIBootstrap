@@ -26,7 +26,7 @@ namespace WebApiSample.Controllers
         [HttpDelete]
         public IHttpActionResult DeleteValues()
         {
-            return Ok("Values Deleted 1.");
+            return Ok("Deleted.");
         }
     }
 }
