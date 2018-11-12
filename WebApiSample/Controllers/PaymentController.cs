@@ -3,28 +3,28 @@ using System.Web.Http;
 
 namespace WebApiSample.Controllers
 {
-    public class OrderController : ApiController 
+    public class PaymentController : ApiController 
     {
         [HttpGet]
-        public IHttpActionResult GetOrder()
+        public IHttpActionResult GetPayment()
         {
             return Ok("Get Successfully.");
         }
 
         [HttpPost]
-        public IHttpActionResult PostOrder()
+        public IHttpActionResult PostPayment()
         {
             return Ok("Posted.");
         }
 
         [HttpPut]
-        public IHttpActionResult PutOrder()
+        public IHttpActionResult PutPayment()
         {
             return Ok("Updated.");
         }
 
         [HttpDelete]
-        public IHttpActionResult DeleteOrder()
+        public IHttpActionResult DeletePayment()
         {
             return Ok("Deleted.");
         }
